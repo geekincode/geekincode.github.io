@@ -1,0 +1,10 @@
+body {
+    background-color: lightblue;
+  }
+p {
+    color: red;
+}
+body img {
+    height: 400px;
+    width: 700px;
+}
