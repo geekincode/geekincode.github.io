@@ -17,8 +17,11 @@ p {
     text-align: center;
 }
 body img {
-    height: 400px;
-    width: 700px;
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    left: 10%;
+    top: 5%;
 }
 div.text {
     align-self: center;
