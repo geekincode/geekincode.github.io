@@ -91,6 +91,7 @@ div.menu {
     width: 16em;
     background-color: skyblue;
     border-radius: 1.8em;
+    box-shadow: 0em 0em 2em 1em #333333;
 
 }
 
