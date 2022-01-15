@@ -11,18 +11,12 @@ h1 {
     font-family:'Times New Roman', Times, serif;
     font-weight: 800;
 }
-p {
+div.text p {
     color: black;
     font-weight: 700;
     text-align: center;
 }
-body img {
-    height: 64px;
-    width: 64px;
-    position: absolute;
-    left: 10%;
-    top: 5%;
-}
+
 div.text {
     align-self: center;
     /* float: left; */
@@ -62,3 +56,74 @@ div.text {
     background-color: #f2f2f2;
     color: black;
   }
+
+div.icon img {
+    height: 5em;
+    width: 5em;
+}
+
+div.icon {
+    position: absolute;
+    height: 5em;
+    width: 5em;
+    background-color: skyblue;
+    margin: 0.3em;
+
+    border-radius: 5em;
+    overflow: hidden;
+}
+
+div.border {
+    height: 5.6em;
+    width: 5.6em;
+    margin-top: 1em;
+    margin-left:5.2em;
+    position: absolute;
+    background-color: lightcoral;
+    border-radius: 6em; 
+}
+
+div.menu {
+    position: fixed;
+
+    margin-top: 7em;
+    height: 25em;
+    width: 16em;
+    background-color: skyblue;
+    border-radius: 1.8em;
+
+}
+
+div.menu p {
+	position:absolute;
+    color: lightcoral;
+	width: 16em;
+	top: 7em;
+	font-weight: 700;
+    text-align: center;
+}
+
+img.icon {
+	position: absolute;
+	top: 15em;
+	height: 2em;
+	width: 2em;
+}
+
+img#GitHub_icon {
+	left: 2.5em;
+}
+
+img#QQ邮箱_icon {
+	left: 7em;
+}
+
+img#Link_icon {
+	right: 2.5em;
+}
+
+img.icon:hover {
+	background-color: white;
+	border-radius: 0.5em;
+	box-shadow: 0em 0em 1em 0.1em black;
+}
