@@ -57,12 +57,12 @@ div.text {
     color: black;
   }
 
-div.icon img {
+div.Avatar img {
     height: 5em;
     width: 5em;
 }
 
-div.icon {
+div.Avatar {
     position: absolute;
     height: 5em;
     width: 5em;
@@ -81,6 +81,11 @@ div.border {
     position: absolute;
     background-color: lightcoral;
     border-radius: 6em; 
+    transition: transform 1s;
+}
+
+div.border:hover {
+    transform: scale(1.05,1.05) translate(0em,-0.6em);
 }
 
 div.menu {
@@ -92,10 +97,16 @@ div.menu {
     background-color: skyblue;
     border-radius: 1.8em;
     box-shadow: 0em 0em 2em 1em #333333;
+    transition: transform 0.7s;
 
 }
 
-div.menu p {
+div.menu:hover {
+    transform: scale(1.05,1.05) translate(1em,-1em);
+    box-shadow: 0em 0em 2em 1.2em #333333;
+}
+
+div.menu p.readme {
 	position:absolute;
     color: lightcoral;
 	width: 16em;
@@ -109,6 +120,7 @@ img.icon {
 	top: 15em;
 	height: 2em;
 	width: 2em;
+    transition: transform 0.5s;
 }
 
 img#GitHub_icon {
@@ -127,4 +139,5 @@ img.icon:hover {
 	background-color: white;
 	border-radius: 0.5em;
 	box-shadow: 0em 0em 1em 0.1em black;
+    transform: scale(1.1,1.1) translate(0em,-0.5em);
 }
