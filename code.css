@@ -123,21 +123,20 @@ img.icon {
     transition: transform 0.5s;
 }
 
-img#GitHub_icon {
-	left: 2.5em;
-}
+img#GitHub_icon {left: 2.5em;}
 
-img#QQ邮箱_icon {
-	left: 7em;
-}
+img#QQ邮箱_icon {left: 7em;}
 
-img#Link_icon {
-	right: 2.5em;
-}
+img#Link_icon {right: 2.5em;}
 
 img.icon:hover {
 	background-color: white;
 	border-radius: 0.5em;
 	box-shadow: 0em 0em 1em 0.1em black;
     transform: scale(1.1,1.1) translate(0em,-0.5em);
+}
+
+img.icon:active {
+    background-color: rgb(241, 241, 241);
+    transform: scale(1,1) translate(0em,0em);
 }
